@@ -28,9 +28,9 @@ PRODUCT_COPY_FILES += \
 
 # container
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/prebuilts/desktop-rootfs.tar.gz:system/maru/containers/jessie/jessie-rootfs.tar.gz \
-    $(LOCAL_PATH)/container/jessie/config:system/maru/containers/jessie/config \
-    $(LOCAL_PATH)/container/jessie/fstab:system/maru/containers/jessie/fstab \
+    $(LOCAL_PATH)/prebuilts/desktop-rootfs.tar.gz:system/maru/containers/kali/kali-rootfs.tar.gz \
+    $(LOCAL_PATH)/container/kali/config:system/maru/containers/kali/config \
+    $(LOCAL_PATH)/container/kali/fstab:system/maru/containers/kali/fstab \
     $(LOCAL_PATH)/container/mcprepare.sh:system/bin/mcprepare
 
 # LXC

@@ -31,7 +31,7 @@ namespace android {
 /**
  * Name of the container under /data/maru/containers/
  */
-static const char *CONTAINER = "jessie";
+static const char *CONTAINER = "kali";
 
 PerspectiveService::PerspectiveService() : mContainerManager(NULL) {
     ALOGI("perspectived is starting...");
