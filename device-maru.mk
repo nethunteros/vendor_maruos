@@ -38,6 +38,9 @@ PRODUCT_PACKAGES += \
 	liblxc \
 	lxc-start \
 	lxc-stop \
+	lxc-attach \
+	lxc-console \
+    lxc-info \
 	lxc-rootfs-mnt-README
 
 # bootanim
